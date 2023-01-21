@@ -1,7 +1,7 @@
 # surfs_up Project
 
 ## Overview of Surfs Up Statistical Analysis
-While on vacation in Hawaii, I visited my brother, Colehour, who owns a coffee farm on the Big Island (aka Hawaii) at the foot of the volcano, Mauna Loa. [Beautiful Hawaii]([Hawaii.png](https://github.com/valchau/surfs_up/blob/main/Hawaii.PNG))
+While on vacation in Hawaii, I visited my brother, Colehour, who owns a coffee farm on the Big Island (aka Hawaii) at the foot of the volcano, Mauna Loa. [Beautiful Hawaii](https://github.com/valchau/surfs_up/blob/main/Hawaii.PNG)
 
 This is actually true, and yes you can really order from him here:  https://www.kanalaniohana.farm/farm. I also discovered that many people there really love surfing. I personally can't do it because I am pretty clumsy and can't even learn to swim, but I love my brother and his coffee. Also, recently there has been a terrible blight on the coffee trees and he is not making money this past year. 
 
