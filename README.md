@@ -25,12 +25,14 @@ I then focused on observations that were recorded in the months of **June** and 
 I fould the following: 
 
 * The average temperature is in the 70's year 'round. (similar to San Diego.)
-* Both June and December showed similar high, low and average temperatures.
+* Both June and December showed similar high, low and average temperatures; with Decemeber being only about 3 degrees cooler.
 * Therefore, a business such as a Surf Shop would be busy with tourists all year.
-* 
-Here is what June looked like: low was 64 degrees, high was 85 degrees and the average was about 75 degrees in Fahrenheit.
-[June Temps](https://github.com/valchau/surfs_up/blob/main/June_Temp_stats.PNG)
 
+Here is what June looked like: low was 64 degrees, high was 85 degrees and the average was about 75 degrees in Fahrenheit.
+[June Temperature Data](https://github.com/valchau/surfs_up/blob/main/June_Temp_stats.PNG)
+
+Here is what December looked like: low was 56, high was 83, average was about 71 degrees in Fahrenheit. Not much lower than June's temperatures.
+[December Temperature Data](https://github.com/valchau/surfs_up/blob/main/Dec_Temp_stats.PNG)
 
 ### Conclusions based on analysis
 Stats for station USC00519281 show that annually, the average precipitation was 17.7% based on 2,021  observations. This tells us that throughout the year, Oahu was mostly sunny throughout the day and experienced low rainfall. 
