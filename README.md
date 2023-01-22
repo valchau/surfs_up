@@ -13,13 +13,20 @@ From my brother's website, the jams are already well liked: See:  https://www.ka
 ### Asking for funding
 I have very little savings, so for this idea to work, we will need some real investor backing to help us start. I have taken classes in creating business plans, but  needed some help, and after putting together a strong business plan, I contacted an investor who wants to remain secret, so we will call him W. Avy, who is famous for his love of surfing. My first meeting with him goes extremely well, but he has one concern, what about the weather? I personally love the weather in Hawaii, but not everyone is me!
 
-The potential investor is extremely serious about this. He invested in a surf shop early in his career. However, he didn't ask for any weather analysis and that early venture was rained out of existence. W. Avy hears that I have been learning how to properly analyze data and asks if I can run some analytics on a weather data set he has on the island O'ahu. That is far from my brother's coffee farm on the Big Island, but he is willing to go there. However, to get this investor to fund our startup, we need to provide him with some statistical data about the weather conditions in O'ahu that will convince him that this will be a successful business venture.
+The potential investor is extremely serious about this. He invested in a surf shop early in his career. However, he didn't ask for any weather analysis and that early venture was rained out of existence. W. Avy hears that I have been learning how to properly analyze data and asks if I can run some analytics on a weather data set he has on the island O'ahu. That is far from my brother's coffee farm on the Big Island, but he is willing to go there. However, to get this investor to fund our startup, we need to provide him with some statistical data about the weather conditions in O'ahu that will convince him that this will be a successful business venture. While the given data is old, it is a start toward answering this investor's question about the precipitation. 
 
+## Results
 ### How I analyzed the data
 In order to give answers to this investor, I was able to obtain some weather data for O'hua in a SQLite database. I used Python and Jupyter Notebooks to import the weather data, and provide the statistical analyses requested. 
 
-In my starting analysis, I read in the weather data for 12 months, and created a Python DataFrame (using pandas) for temperature and precipiation dThe average precipitation was 17.7% based on 2,021   observations. This tells us that throughout the year, Oahu was mostly sunny throughout the day and experienced low rainfall. 
-  
+To begin, I read in the weather data from the SQLite database provided, which had data for 12 months, and created a Python DataFrame (using pandas) for temperature and precipiation. This data showed that there were 9 weather stations collecting temperature and precipitation data for this time period. I looked at the number of weather stations that were actively collecting precipitation data and chose the one station that had the most observations recorded for my analysis; it was station USC00519281. 
 
-There were 9 weather stations that gathered the data I used. Using the station with the most observations measured, the lowest temperature during the 12 month period measured was 54 degrees Fahrenheit and the highest temperature was 85 degrees Fahrenheit, with an average temperature of 71 degrees Fahrenheit.
+### Conclusions based on analysis
+Stats for station USC00519281 show that annually, the average precipitation was 17.7% based on 2,021  observations. This tells us that throughout the year, Oahu was mostly sunny throughout the day and experienced low rainfall. 
+[AnnualPrecipitation Aug 2016 to Aug 2017 ](https://github.com/valchau/surfs_up/blob/main/precip_by_month_stats.PNG)
+
+I found that the lowest temperature during the 12 month period measured was 54 degrees Fahrenheit and the highest temperature was 85 degrees Fahrenheit, with an average temperature of 71 degrees Fahrenheit.
+
+
+We In total, there were (9) stations with ` showing the highest amount of observations at 2,772 entries. We used the information from this station to review the temperature for the same time period. The results showed that the average temperature throughout the year was **72°F** with a low of **54°F** and a high of **85°F**. 
 
