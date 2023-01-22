@@ -38,8 +38,12 @@ Here is what December looked like: low was 56, high was 83, average was about 71
 Stats for station USC00519281 show that annually, the average precipitation was 17.7% based on 2,021  observations. This tells us that throughout the year, Oahu was mostly sunny throughout the day and experienced low rainfall. 
 [Annual Precipitation Aug 2016 to Aug 2017 ](https://github.com/valchau/surfs_up/blob/main/precip_by_month_stats.PNG)
 
-I found that the lowest temperature during the 12 month period measured was 54 degrees Fahrenheit and the highest temperature was 85 degrees Fahrenheit, with an average temperature of 71 degrees Fahrenheit.
+I found that the lowest temperature during the 12 month period measured was 54 degrees Fahrenheit and the highest temperature was 85 degrees Fahrenheit, with an average temperature of about  71 degrees Fahrenheit.
+
+Comparing the termperatatures and precipitation for both June and December, I found the following: 
+[Summer: Temp and Precipitation June ](https://github.com/valchau/surfs_up/blob/main/June_temp_precip.PNG)
+
+[Winter: Temp and Precipitation Decemeber ](https://github.com/valchau/surfs_up/blob/main/Dec_temp_precip.PNG)
 
 
-We In total, there were (9) stations with ` showing the highest amount of observations at 2,772 entries. We used the information from this station to review the temperature for the same time period. The results showed that the average temperature throughout the year was **72°F** with a low of **54°F** and a high of **85°F**. 
 
