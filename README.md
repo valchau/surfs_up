@@ -34,16 +34,23 @@ Here is what June looked like: low was 64 degrees, high was 85 degrees and the a
 Here is what December looked like: low was 56, high was 83, average was about 71 degrees in Fahrenheit. Not much lower than June's temperatures.
 [December Temperature Data](https://github.com/valchau/surfs_up/blob/main/Dec_Temp_stats.PNG)
 
-### Conclusions based on analysis
+## Summary
 Stats for station USC00519281 show that annually, the average precipitation was 17.7% based on 2,021  observations. This tells us that throughout the year, Oahu was mostly sunny throughout the day and experienced low rainfall. 
 [Annual Precipitation Aug 2016 to Aug 2017 ](https://github.com/valchau/surfs_up/blob/main/precip_by_month_stats.PNG)
 
-I found that the lowest temperature during the 12 month period measured was 54 degrees Fahrenheit and the highest temperature was 85 degrees Fahrenheit, with an average temperature of about  71 degrees Fahrenheit.
+### Annual results
+I found that the lowest temperature during the 12 month period measured was 54 degrees Fahrenheit and the highest temperature was 85 degrees Fahrenheit, with an average temperature of about 71 degrees Fahrenheit.
 
-Comparing the termperatatures and precipitation for both June and December, I found the following: 
+### Summer vs. Winter results
+Comparing the termperatatures and precipitation for both June and December, I found the following:
+* In summer there was only 14% average precipitation
+* In winter, the lowest temperature at 56 degrees is actually cold, while the lowest temperature for summer (June) at 64 degrees, isn't so cold. Very similar weather at the coldest to San Diego. 
+* For both summer and winter, the high temperatures, 83 degrees vs. 85 degrees were very similar, and much lower as a high temperature, than here in San Diego where it can be 100 degrees on a few weeks during summer and early fall. 
+* For precipitation, the winter had more with a maximum value of 6.42, while summer's maximum value is 4.42. So yes it will rain more in Winter.
+
 [Summer: Temp and Precipitation June ](https://github.com/valchau/surfs_up/blob/main/June_temp_precip.PNG)
 
 [Winter: Temp and Precipitation Decemeber ](https://github.com/valchau/surfs_up/blob/main/Dec_temp_precip.PNG)
 
-
+Looking at the precipitation and the temperature data for the years given, 2016 - 2017, I suspect that investing in a **Surf Shop** could be a viable business venture based solely on the decent weather of O'ahu, Hawaii. I would suggest further analysis, since 2023 is a long way in the future from the given set of data and climate change affects everywhere on Earth.
 
