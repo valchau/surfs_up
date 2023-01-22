@@ -21,9 +21,20 @@ In order to give answers to this investor, I was able to obtain some weather dat
 
 To begin, I read in the weather data from the SQLite database provided, which had data for 12 months, and created a Python DataFrame (using pandas) for temperature and precipiation. This data showed that there were 9 weather stations collecting temperature and precipitation data for this time period. I looked at the number of weather stations that were actively collecting precipitation data and chose the one station that had the most observations recorded for my analysis; it was station USC00519281. 
 
+I then focused on observations that were recorded in the months of **June** and **December**, to see if winter vs. summer precipiation was different or not. 
+I fould the following: 
+
+* The average temperature is in the 70's year 'round. (similar to San Diego.)
+* Both June and December showed similar high, low and average temperatures.
+* Therefore, a business such as a Surf Shop would be busy with tourists all year.
+* 
+Here is what June looked like: low was 64 degrees, high was 85 degrees and the average was about 75 degrees in Fahrenheit.
+[June Temps](https://github.com/valchau/surfs_up/blob/main/June_Temp_stats.PNG)
+
+
 ### Conclusions based on analysis
 Stats for station USC00519281 show that annually, the average precipitation was 17.7% based on 2,021  observations. This tells us that throughout the year, Oahu was mostly sunny throughout the day and experienced low rainfall. 
-[AnnualPrecipitation Aug 2016 to Aug 2017 ](https://github.com/valchau/surfs_up/blob/main/precip_by_month_stats.PNG)
+[Annual Precipitation Aug 2016 to Aug 2017 ](https://github.com/valchau/surfs_up/blob/main/precip_by_month_stats.PNG)
 
 I found that the lowest temperature during the 12 month period measured was 54 degrees Fahrenheit and the highest temperature was 85 degrees Fahrenheit, with an average temperature of 71 degrees Fahrenheit.
 
