@@ -16,7 +16,10 @@ I have very little savings, so for this idea to work, we will need some real inv
 The potential investor is extremely serious about this. He invested in a surf shop early in his career. However, he didn't ask for any weather analysis and that early venture was rained out of existence. W. Avy hears that I have been learning how to properly analyze data and asks if I can run some analytics on a weather data set he has on the island O'ahu. That is far from my brother's coffee farm on the Big Island, but he is willing to go there. However, to get this investor to fund our startup, we need to provide him with some statistical data about the weather conditions in O'ahu that will convince him that this will be a successful business venture.
 
 ### How I analyzed the data
-In order to give answers to this investor, I was able to obtain some weather data in a SQLite database. I used Python and Jupyter Notebooks to import the data, and provide the statistical analyses requested. 
+In order to give answers to this investor, I was able to obtain some weather data for O'hua in a SQLite database. I used Python and Jupyter Notebooks to import the weather data, and provide the statistical analyses requested. 
 
-My starting analysis, where I read in the weather data, and created a Python DataFrame (using pandas) for temperature and precipiation data for the final 12 months of the given data. This represents August 23, 2016 - August 23, 2017. Here is how I did it: [climate analysis](https://github.com/valchau/surfs_up/blob/main/climate_analysis.ipynb)  There were 9 weather stations that gathered the data I used. Using the station with the most observations measured, the lowest temperature during the 12 month period measured was 54 degrees Fahrenheit and the highest temperature was 85 degrees Fahrenheit, with an average temperature of 71 degrees Fahrenheit.
+In my starting analysis, I read in the weather data for 12 months, and created a Python DataFrame (using pandas) for temperature and precipiation dThe average precipitation was 17.7% based on 2,021   observations. This tells us that throughout the year, Oahu was mostly sunny throughout the day and experienced low rainfall. 
+  
+
+There were 9 weather stations that gathered the data I used. Using the station with the most observations measured, the lowest temperature during the 12 month period measured was 54 degrees Fahrenheit and the highest temperature was 85 degrees Fahrenheit, with an average temperature of 71 degrees Fahrenheit.
 
